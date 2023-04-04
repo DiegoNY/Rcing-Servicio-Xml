@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="ISO-8859-1" standalone="no"?>
+<Invoice>
+	<ID>F202-00016456</ID>
+	<IssueDate>2023-04-03</IssueDate> 
+	<InvoiceTypeCode>01</InvoiceTypeCode> 
+	<DocumentCurrencyCode>PEN</DocumentCurrencyCode> 
+	<AccountingSupplierParty>
+		<CustomerAssignedAccountID> 20605129154</CustomerAssignedAccountID>
+		<AdditionalAccountID></AdditionalAccountID>
+		<Party>
+			<PartyName>
+				<Name>.</Name>
+			</PartyName>
+			<PostalAddress>
+				<ID>150115</ID>
+				<StreetName>LA VICTORIA</StreetName>
+				<CityName> LIMA </CityName>
+				<CountrySubentity>LA VICTORIA</CountrySubentity>
+				<District>LIMA </District>
+				<Country>
+					<IdentificationCode>PE</IdentificationCode>
+				</Country>
+			</PostalAddress>
+			<PartyLegalEntity>
+				<RegistrationName>.</RegistrationName>
+			</PartyLegalEntity>
+		</Party>
+	</AccountingSupplierParty>
+	<AccountingCustomerParty>
+		<CustomerAssignedAccountID>20508024771</CustomerAssignedAccountID>
+		<AdditionalAccountID>6</AdditionalAccountID>
+		<Party>
+		<PostalAddress>				
+				<StreetName>JR. PARURO NRO. 1245 URB. BARRIOS ALTOS LIMA - LIMA - LIMA</StreetName>				
+			</PostalAddress>
+			<PartyLegalEntity>
+				<RegistrationName>COMERCIAL B.F.IMPORT S.A.C</RegistrationName>
+			</PartyLegalEntity>
+		</Party>
+	</AccountingCustomerParty>
+	<PaymentTerms>
+		<ID>FormaPago</ID>
+		<PaymentMeansID>Contado</PaymentMeansID>
+	</PaymentTerms>
+	<TaxTotal>
+		<TaxAmount>39.92</TaxAmount>
+		<TaxSubtotal>
+			<TaxAmount>39.92</TaxAmount>
+			<TaxCategory>
+				<TaxScheme>
+					<ID>1000</ID>
+					<Name>IGV</Name>
+					<TaxTypeCode>VAT</TaxTypeCode>
+				</TaxScheme>
+			</TaxCategory>
+		</TaxSubtotal>
+	</TaxTotal>
+	<LegalMonetaryTotal>
+		<PayableAmount>261.69</PayableAmount> 		
+	</LegalMonetaryTotal>
+	<InvoiceLine>
+		<ID>1</ID>
+		<InvoicedQuantity>14.793</InvoicedQuantity> 
+		<UnitCode>GLL</UnitCode>
+		<LineExtensionAmount>261.69</LineExtensionAmount> 
+		<PricingReference>
+			<AlternativeConditionPrice>
+				<PriceAmount>17.69</PriceAmount>
+				<PriceTypeCode>01</PriceTypeCode>
+			</AlternativeConditionPrice>
+		</PricingReference>
+		<TaxTotal>
+			<TaxAmount>39.92</TaxAmount>  
+			<TaxSubtotal> 
+				<TaxAmount>39.92</TaxAmount>
+				<TaxCategory>
+					<TaxExemptionReasonCode>10</TaxExemptionReasonCode> 
+					<TaxScheme>
+						<ID>1000</ID> 
+						<Name>IGV</Name> 
+						<TaxTypeCode>VAT</TaxTypeCode>
+					</TaxScheme>
+				</TaxCategory>
+			</TaxSubtotal>
+		</TaxTotal>
+		<Item>
+			<Description>G-95</Description>
+			<SellersItemIdentification>
+				<ID>3</ID> 
+			</SellersItemIdentification>
+		</Item>
+		<Price>
+			<PriceAmount>14.99</PriceAmount> 
+		</Price>
+	</InvoiceLine>	
+	<AdditionalInformation>
+		<AdditionalMonetaryTotal>
+			<ID>1005</ID> 
+			<PayableAmount>221.77</PayableAmount>
+			<ID>2005</ID>
+			<PayableAmount currencyID="PEN">0.00</PayableAmount>
+		</AdditionalMonetaryTotal>	
+		<SUNATCosts>
+        <RoadTransport>
+            <LicensePlateID>BLW517</LicensePlateID>
+        </RoadTransport>
+    </SUNATCosts>		 	
+	</AdditionalInformation>
+	<Adjuntos>
+		<Libre1></Libre1>
+		<Libre2></Libre2>
+		<Libre3></Libre3>
+		<Libre4></Libre4>
+		<Libre5></Libre5>
+		<Libre6></Libre6>
+		<Observacion></Observacion>
+		<MontoPalabras>DOSCIENTOS SESENTA Y UNO Y 69 /100 SOLES</MontoPalabras>
+		<MailReceptor></MailReceptor>
+		<Impresora></Impresora>
+		<Copias>1</Copias>
+	</Adjuntos>
+</Invoice>
